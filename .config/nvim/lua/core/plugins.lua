@@ -2,6 +2,11 @@ require("lazy").setup({
   "folke/which-key.nvim",
   "folke/tokyonight.nvim",
 	"nvim-tree/nvim-tree.lua",
+	"neovim/nvim-lspconfig", -- Collection of configurations for built-in LSP client
+ 	"hrsh7th/nvim-cmp", -- Autocompletion plugin
+ 	"hrsh7th/cmp-nvim-lsp", -- LSP source for nvim-cmp
+ 	"saadparwaiz1/cmp_luasnip", -- Snippets source for nvim-cmp
+ 	"L3MON4D3/LuaSnip", -- Snippets plugin
 	"rebelot/kanagawa.nvim",
 	"nvim-treesitter/nvim-treesitter",
 	"nvim-tree/nvim-web-devicons",
@@ -10,6 +15,7 @@ require("lazy").setup({
 	"williamboman/mason.nvim",
 	"williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
+  "ThePrimeagen/harpoon",
 	{
  	 "folke/which-key.nvim",
  	 event = "VeryLazy",

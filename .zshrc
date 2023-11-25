@@ -15,9 +15,6 @@ export PATH=$PATH:/usr/local/go/bin
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
  ZSH_THEME="robbyrussell"
 
-/usr/bin/setxkbmap -option 'caps:ctrl_modifier'
-/usr/bin/xcape -e 'Caps_Lock=Escape' 
-
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -83,6 +80,7 @@ source $ZSH/oh-my-zsh.sh
 bindkey -s ^f "~/scripts/tmux_fzf.sh\n"
 # User configuration
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias nvim='$HOME/nvim-linux64/bin/nvim'
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
